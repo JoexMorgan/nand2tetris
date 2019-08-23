@@ -7,7 +7,6 @@ function parser(data) {
     var instruction = '';
     var tempAddress = '';
     var isTypeACommand = data.charAt(0) == '@';
-    //if data == @420; intruction == '0000000110100100'
     if (isTypeACommand) {
         let trimmer = data.split('@');
         trimmer.shift();
