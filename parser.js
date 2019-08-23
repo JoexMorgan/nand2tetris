@@ -83,4 +83,4 @@ function parser(data) {
 }
 console.log(parser('@420'));
 console.log(parser('D=A'));
-console.log('You fuckin did it! \nA-Commands and C-Commands appear to be parsing accurately. \nAssuming a single line of ASM is passed into parser(), the correct code is returned. \nNow I need to use the nodejs readLine() to take in several lines of ASM');
+console.log('You did it! \nA-Commands and C-Commands appear to be parsing accurately. \nAssuming a single line of ASM is passed into parser(), the correct code is returned. \nNow I need to use the nodejs readLine() to take in several lines of ASM');
